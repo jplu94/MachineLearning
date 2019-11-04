@@ -1,7 +1,7 @@
 #Creat data
 import numpy as np
 def creatNormal(x):
-    mu, sigma = 0, 1.1 # mean and standard deviation
+    mu, sigma = 0, 0.1 # mean and standard deviation
     s = np.random.normal(mu, sigma, len(x))
     return s  
 
